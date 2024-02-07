@@ -1,4 +1,4 @@
-//given an array and target number.
+//given an array and target number. return an array of any two numbers that sum to the provided target.
 
 
 let arr = [1,2,3,4,5,5,6]
