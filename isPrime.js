@@ -20,8 +20,9 @@ const isPrime = (num) => {
           return true
           break;
       }
-        for(let i = 2;i<10;i++){
+        for(let i = 2;i<100;i++){
             if(num % i === 0){
+              console.log(i)
                 return false
             }
         }
@@ -29,3 +30,5 @@ const isPrime = (num) => {
 
     }
 };
+
+console.log(isPrime())
